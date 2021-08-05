@@ -15,15 +15,8 @@ export class BootstrapCarousel extends Component {
             <Carousel>
               <Carousel.Item style={{'height':"auto"}} >
                 <div className='bg-image' >
-                    <img src={img1} style={{backgroundColor: 'rgba(255, 100, 100, 0.90)'}}
+                    <img src={img1}
                          alt="First Demo"  />
-                      <div className='mask'
-                          style={{
-                          backgroundColor: 'rgba(255, 100, 100, 0.90)',
-                          padding: '2px 10px',
-                          color: 'white',
-                          borderRadius: 3,
-                      }}/>
                 </div>
                   <Carousel.Caption>
                     <h3>First Slide</h3>
