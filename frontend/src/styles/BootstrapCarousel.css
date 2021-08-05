@@ -8,11 +8,3 @@
     position: absolute;
     align-items: center!important;
 }
-
-img.dd-block align-items-center w-80{
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-}

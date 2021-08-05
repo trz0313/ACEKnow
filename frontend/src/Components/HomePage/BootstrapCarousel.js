@@ -13,10 +13,9 @@ export class BootstrapCarousel extends Component {
           </div>
           <div className='container-fluid' >
             <Carousel>
-              <Carousel.Item style={{'height':"600px"}} >
+              <Carousel.Item style={{'height':"auto"}} >
                 <div className='bg-image' >
-                    <img src={img1} style={{'height':"600px",backgroundColor: 'rgba(255, 100, 100, 0.90)'}}
-                         className="d-block align-items-center w-100"
+                    <img src={img1} style={{backgroundColor: 'rgba(255, 100, 100, 0.90)'}}
                          alt="First Demo"  />
                       <div className='mask'
                           style={{
@@ -30,9 +29,8 @@ export class BootstrapCarousel extends Component {
                     <h3>First Slide</h3>
                   </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item style={{'height':"600px"}}>
-                <img style={{'height': "600px"}}
-                     className="d-block align-items-center w-80"
+              <Carousel.Item style={{'height':"auto"}}>
+                <img
                      src={img2}
                      alt="Second Demo"
                 />
@@ -40,9 +38,8 @@ export class BootstrapCarousel extends Component {
                     <h3>Second Slide</h3>
                   </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item style={{'height':"600px"}}>
-                <img style={{'height': "600px"}}
-                     className="d-block align-items-center w-80"
+              <Carousel.Item style={{'height':"auto"}}>
+                <img
                      src="https://www.engineering.utoronto.ca/files/2020/08/UTEng_Virtual_BG_Fleming.jpg"
                      alt="Third Demo"
                 />
