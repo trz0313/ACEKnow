@@ -14,7 +14,6 @@ export class BootstrapCarousel extends Component {
             </div>
           </div>
           <div className='container-fluid' >
-              <SearchBar/>
             <Carousel>
               <Carousel.Item style={{'height':"600px"}} >
                 <div className='bg-image' >

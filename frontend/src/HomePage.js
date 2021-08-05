@@ -6,6 +6,7 @@ import {mainDomain} from "./configuration";
 import NavBar from "./Components/Misc/NavBar";
 import BootstrapCarousel from "./Components/HomePage/BootstrapCarousel";
 import Footer from "./Components/HomePage/Footer";
+import SearchBar from "./Components/HomePage/SearchBar";
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -34,10 +35,11 @@ class HomePage extends React.Component {
       <Container>
         <NavBar/>
         <BootstrapCarousel/>
-        <MainPsg/>
-        <h5>Sponsors info here</h5>
-        <MainPsgBot/>
-        <Footer/>
+        <SearchBar/>
+        {/*<MainPsg/>*/}
+        {/*<h5>Sponsors info here</h5>*/}
+        {/*<MainPsgBot/>*/}
+        {/*<Footer/>*/}
       </Container>
     )
   }
