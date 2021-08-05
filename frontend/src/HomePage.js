@@ -36,10 +36,10 @@ class HomePage extends React.Component {
         <NavBar/>
         <BootstrapCarousel/>
         <SearchBar/>
-        {/*<MainPsg/>*/}
-        {/*<h5>Sponsors info here</h5>*/}
-        {/*<MainPsgBot/>*/}
-        {/*<Footer/>*/}
+        <MainPsg/>
+        <h5>Sponsors info here</h5>
+        <MainPsgBot/>
+        <Footer/>
       </Container>
     )
   }

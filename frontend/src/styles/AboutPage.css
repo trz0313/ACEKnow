@@ -24,7 +24,7 @@ h1 {
 h2 {
     width: 100%; 
     text-align: center;
-    border-bottom: 0.25vw solid grey; 
+    border-bottom: 0.25vw solid grey;
     line-height: 0.25vw;
     font-size: 3vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,7 +37,7 @@ h2 span {
 }
 
 .p1 {
-    font-size: 1.5vw;
+    resize: none;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:black;
     margin: 3vw;
