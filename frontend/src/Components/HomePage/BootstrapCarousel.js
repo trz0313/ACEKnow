@@ -3,7 +3,6 @@ import Carousel from 'react-bootstrap/Carousel'
 import img1 from "./img/img1.jpg"
 import img2 from "./img/img2.jpg"
 import '../../styles/BootstrapCarousel.css';
-import SearchBar from "./SearchBar";
 
 export class BootstrapCarousel extends Component {
   render() {
