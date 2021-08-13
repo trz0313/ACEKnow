@@ -32,15 +32,17 @@ class HomePage extends React.Component {
 
   render() {
     return (
-      <Container>
+      <>
         <NavBar/>
-        <BootstrapCarousel/>
-        <SearchBar/>
-        <MainPsg/>
-        <h5>Sponsors info here</h5>
-        <MainPsgBot/>
-        <Footer/>
-      </Container>
+        <Container>
+            <BootstrapCarousel/>
+            <SearchBar/>
+            <MainPsg/>
+            <h5>Sponsors info here</h5>
+            <MainPsgBot/>
+            <Footer/>
+        </Container>
+      </>
     )
   }
 }
