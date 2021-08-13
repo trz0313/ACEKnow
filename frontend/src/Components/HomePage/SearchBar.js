@@ -44,7 +44,6 @@ class SearchBar extends React.Component {
     });
 
     return (
-      <div className="box">
       <div className="col-md-6 col-lg-6 col-11 mx-auto my-auto search-box">
         <div className="input-group form container">
           <input type="text"
@@ -73,7 +72,6 @@ class SearchBar extends React.Component {
             {item.Info} <a href={item.Link}>Click here</a>
           </div>
         )): null}
-      </div>
       </div>
     );
   }
